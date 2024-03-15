@@ -12,8 +12,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm ci
-          npm run deploy-tailwind-config
+          pnpm install
+          pnpm run deploy-tailwind-config
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
