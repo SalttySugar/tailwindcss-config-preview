@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "view-tailwind-config": "tailwind-config-viewer -o -c ./tailwind.config.cjs",
-    "deploy-tailwind-config": "tailwind-config-viewer export -c ./tailwind.config.cjs ./tailwindcss-bundle"
+    "deploy-tailwind-config": "tailwind-config-viewer export -c ./tailwind.config.cjs ./docs"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
